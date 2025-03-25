@@ -24,15 +24,15 @@ Step 2: Define the Logic
 [X] Create a 2D array to represent the 9x9 grid.
 [X] Each cell will hold a value representing either 'X', 'O', or null (empty).
 2. Player Choices
-Create a variable to track the current player. Initially, this can be 'X' or 'O', and after each move, it will switch to the other player.
+[X] Create a variable to track the current player. Initially, this can be 'X' or 'O', and after each move, it will switch to the other player.
 3. Player Move
 When a player clicks on a cell in the grid, the corresponding array position is updated with the player's symbol.
 After each move, check if there's a winner or if the game is a draw.
 4. Winner Check Logic
-For checking a winner, you need to check for a sequence of 5 cells in a row (horizontally, vertically, or diagonally).
+[X]For checking a winner, you need to check for a sequence of 5 cells in a row (horizontally, vertically, or diagonally).
 This can be done by checking all rows, columns, and diagonals for a streak of the same player symbol.
 5. Handle Draw
-If all cells are filled and no one has won, it’s a draw.
+[X] If all cells are filled and no one has won, it’s a draw.
 
 Step 4: Game Flow
 Players can select whether they want to be 'X' or 'O'.
